@@ -28,13 +28,18 @@ sessionStorage数据不在不同的浏览器窗口中共享，即使是同一个
 
 ## 使用方法：
 **1、cookie **
-cookie是以键值对的形式保存的，即key=value的格式。各个cookie之间一般是以“;”分隔。
+
+**将文件放到服务器上运行才有用，不要直接是file://这种格式的打开文件**
+
+cookie是以键值对的形式保存的，即key=value的格式。
 
 * 设置cookie
 ```js
-document.cookie="name=jack;password=123";
-document.cookie = "username=Bill Gates; expires=Sun, 31 Dec 2017 12:00:00 UTC; path=/"; //设置时间和路径
+document.cookie = "username=kitty";
+document.cookie = "username=kitty; expires=Sun, 31 Dec 2017 12:00:00 UTC; path=/"; //设置时间和路径
 ```
+
+设置cookie的有效期的时候要注意，“;”后有空格，时间格式是UTC格式。
 
 * 读取cookie
 ```js
