@@ -14,7 +14,7 @@ table { border-collapse:collapse; border-spacing:0;width:100%;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, menu, nav, section { display: block; }
-input,input[type="search"],button,select,option,textarea,a{ outline:none; border:0; -webkit-appearance:none;border-radius: 0; background:none;-webkit-box-sizing:border-box;box-sizing:border-box;}
+input,input[type="search"],button,select,option,textarea,a{ outline:none; border:0; border-radius: 0; background:none;-webkit-box-sizing:border-box;box-sizing:border-box;}
 /* custom */
 a { text-decoration: none; -webkit-backface-visibility: hidden; color:#333; }
 body,input,textarea{ -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'; color:#333;}
@@ -58,10 +58,10 @@ input{line-height: normal; box-sizing:border-box;}
   fill: currentColor;
   overflow: hidden;
 }
-@font-face {
+/*@font-face {
   font-family: 'GuildfordProBook 5';
   src:url('GuildfordProBook 5.otf')
-}
+}*/
 [v-cloak] {
   display: none;
 }
