@@ -3,10 +3,13 @@
 
 >主要记录平时学到的知识，总结成文档，方便翻看。持续更新中
 
+### data 文件夹放常用重要文件
 
+### js本地存储方式.md -- 记录对cookie、localStorage和sessionStorage的区别和简单使用。
 
-## data 文件夹放常用重要文件
+### vue中好用的插件.md  --记录一些容易忘记的vue插件。
 
-## js本地存储方式.md -- 记录对cookie、localStorage和sessionStorage的区别和简单使用。
+### 一些好看的样式.md --记录从一些网站上收集的好看的样式
 
-## vue中好用的插件.md  --记录一些容易忘记的vue插件。
+### 微信小程序引入vantui的方法.md --微信小程序中引入包管理的方法步骤
+
